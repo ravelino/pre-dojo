@@ -1,2 +1,12 @@
-Coloque aqui suas instruções ou comentários que ache útil/relevantes para possamos ler 
-quando estivermos avaliando a sua solução
+Resquisitos
+-Java 7
+-Tomcat 7
+-Maven
+-Mysql
+
+Mudar configuração do hibernate.cfg.xml
+
+Bom, deixei de fazer algumas coisas que talvez sejam importam, mas acredito que o
+mais importante era a resolver o exercicio.
+
+Bom, foi muito divertido participar desse dojo, foi muito desafiador! Valeu!
