@@ -1,0 +1,23 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD .//EM"
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+	<session-factory>
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<!-- <property name="hibernate.connection.password">dojo</property> -->
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/dojo</property>
+		<property name="hibernate.connection.username">root</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+		
+		<property name="hbm2ddl.auto">update</property>
+		<property name="hibernate.show_sql">true</property>
+		<property name="hibernate.format_sql">false</property>
+		
+		<mapping class="dojo.entity.Jogador" />
+		<mapping class="dojo.entity.Partida" />
+		<mapping class="dojo.entity.Arma" />
+	</session-factory>
+
+</hibernate-configuration>
